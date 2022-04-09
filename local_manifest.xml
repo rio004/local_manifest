@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="rio" fetch="https://github.com/rio004" />
+<remote name="havocuser" fetch="https://github.com/havocuser19" />
+
+<project path="device/samsung/m51" name="device_samsung_m51" remote="rio" revision="eleven" />
+<project path="vendor/samsung/m51" name="vendor_samsung_m51" remote="rio" revision="eleven" />
+<project path="kernel/samsung/m51" name="kernel_m51" remote="havocuser" revision="s" />
+
+</manifest>
